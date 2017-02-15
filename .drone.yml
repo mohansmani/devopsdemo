@@ -1,5 +1,5 @@
 build:
-  image: java:openjdk-7
+  image: maven
   environment:
     - GRADLE_USER_HOME=~/.gradle
   commands:
